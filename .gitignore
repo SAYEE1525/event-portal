@@ -1,0 +1,4 @@
+node_modules
+dist
+events.db*
+.DS_Store
