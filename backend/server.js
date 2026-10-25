@@ -171,5 +171,7 @@ app.use((err, _req, res, _next) => {
   console.error(err);
   res.status(500).json({ error: 'Something went wrong on the server.' });
 });
-
+app.get("/", (req, res) => {
+  res.send("Event Portal Backend is Running Successfully!");
+});
 app.listen(PORT, () => console.log(`API running at http://localhost:${PORT}`));

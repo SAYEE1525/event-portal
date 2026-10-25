@@ -52,3 +52,7 @@ Open http://localhost:5173 in your browser.
 
 ## Reset the data
 Stop the backend, delete `backend/events.db`, and start it again.
+
+## Project Demo
+
+[Watch the Event Portal Demo]https://www.loom.com/share/8a350b257e124515bac3d663a685426a
